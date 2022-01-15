@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "593891968659",
+    "firebase_url": "https://agrome-7b4f2-default-rtdb.firebaseio.com",
+    "project_id": "agrome-7b4f2",
+    "storage_bucket": "agrome-7b4f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593891968659:android:4c5f720af94ec40170af66",
+        "android_client_info": {
+          "package_name": "com.codingblocksmodules.agrome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593891968659-1oeeafv3lsru4b423jko7d9dt5cna75c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBO0WpXhaheSAdOkiM_6Y0_j9mFJ5Z98lA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593891968659-1oeeafv3lsru4b423jko7d9dt5cna75c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

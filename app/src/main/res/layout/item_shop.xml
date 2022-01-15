@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="20dp"
+    android:layout_marginStart="12dp"
+    android:layout_marginBottom="12dp"
+    android:layout_marginEnd="12dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_marginTop="30dp"
+    android:background="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:id="@+id/imgShopItem"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            tools:src="@drawable/scheme3"
+            android:background="@color/grey_bg"
+            android:scaleType="centerCrop"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black"/>
+        <TextView
+            android:id="@+id/tvItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:background="@color/green_p_dark"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            tools:text ="Balwan earth auger 63 cc(BE-63)"
+            style="@style/TextAppearance.AppCompat.Subhead"/>
+
+        <TextView
+            android:id="@+id/tvItemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="bottom|center"
+            android:text="$20.8"
+            android:padding="4dp"
+            android:textSize="16sp"
+            android:background="@color/green_p_dark"
+            android:textColor="@color/white"
+            style="@style/TextAppearance.AppCompat.Caption"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

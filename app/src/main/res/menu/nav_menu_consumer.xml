@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp1">
+
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_nav_home"
+            android:title="Home" />
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/grp4">
+        <item
+            android:id="@+id/sellerFragment"
+            android:icon="@drawable/ic_seller"
+            android:title="Seller" />
+
+        <item
+            android:id="@+id/transportationFragment"
+            android:icon="@drawable/ic_nav_transportation"
+            android:title="Transportation" />
+
+        <item
+            android:id="@+id/govtSchemesFragment"
+            android:icon="@drawable/ic_nav_govt_schemes"
+            android:title="Government Schemes" />
+
+        <item
+            android:id="@+id/aboutUsFragment"
+            android:icon="@drawable/ic_nav_about_us"
+            android:title="About us" />
+
+    </group>
+
+    <item
+        android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single"
+                android:id="@+id/grp5">
+                <item
+                    android:id="@+id/nav_logOut"
+                    android:title="Log Out"
+                    android:icon="@drawable/ic_nav_login"
+                    />
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="?attr/selectableItemBackground"
+    android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:id="@+id/ivNews"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            tools:src="@drawable/news1"/>
+
+        <LinearLayout
+            android:layout_marginStart="24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvHeadline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:lineSpacingExtra="4dp"
+                tools:text="US milk production continues its upward trajectory for 2018"/>
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="20 Dec 2021"
+                android:textSize="18sp"
+                android:layout_marginBottom="4dp"
+                android:layout_marginTop="16dp"/>
+        </LinearLayout>
+    </LinearLayout>

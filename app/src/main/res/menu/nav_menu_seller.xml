@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homeFragment"
+            android:icon="@drawable/ic_nav_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/myPostsFragment"
+            android:icon="@drawable/ic_post"
+            android:title="My Posts"
+            />
+
+    </group>
+    <item
+        android:id="@+id/nav_soil_testing"
+        android:title="Soil Testing">
+
+        <menu>
+            <group
+                android:id="@+id/grp2"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/labDetailsFragment"
+                    android:icon="@drawable/ic_nav_lab_details"
+                    android:title="Lab Details" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_features"
+        android:title="Features">
+
+        <menu>
+            <group
+                android:id="@+id/grp3"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/cropRecommendationFragment"
+                    android:icon="@drawable/ic_nav_crop_recommendation"
+                    android:title="Crop Prediction" />
+
+                <item
+                    android:id="@+id/cropAnalysisFragment"
+                    android:icon="@drawable/ic_nav_crop_analysis"
+                    android:title="Crop Analysis" />
+
+                <item
+                    android:id="@+id/insuranceFragment"
+                    android:icon="@drawable/ic_nav_insurance"
+                    android:title="Agro Insurance" />
+
+                <item
+                    android:id="@+id/transportationFragment"
+                    android:icon="@drawable/ic_nav_transportation"
+                    android:title="Transportation" />
+
+                <item
+                    android:id="@+id/govtSchemesFragment"
+                    android:icon="@drawable/ic_nav_govt_schemes"
+                    android:title="Government Schemes" />
+
+            </group>
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/grp4"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/aboutUsFragment"
+            android:icon="@drawable/ic_nav_about_us"
+            android:title="About us" />
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group
+                android:id="@+id/grp5"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logOut"
+                    android:icon="@drawable/ic_nav_login"
+                    android:title="Log Out" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

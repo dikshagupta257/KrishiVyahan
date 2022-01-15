@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.view.fragments.CropRecommendationFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/flFirstSection"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:id="@+id/ivGovtSchemeBg"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:foreground="#6F000000"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/crop_recommendation" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="CROP PREDICTION"
+                    android:textColor="@color/white"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/rvSecondSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/grey_text"
+                android:text="@string/recommendation_section2_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop = "18dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="4dp"
+                android:text="Enter Parameters:"
+                android:textColor="@color/grey_text"
+                android:textSize="18sp"/>
+
+            <LinearLayout
+                android:id="@+id/llThirdSection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/grey_bg"
+                android:layout_margin="4dp"
+                android:elevation="4dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/etNitrogen"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Nitrogen"
+                    android:inputType="numberDecimal"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:padding="8dp"
+                    android:background="@drawable/edittext_background"/>
+
+                <EditText
+                    android:id="@+id/etPhosphorus"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Phosphorus"
+                    android:inputType="numberDecimal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:padding="8dp"
+                    android:background="@drawable/edittext_background"/>
+
+                <EditText
+                    android:id="@+id/etPotassium"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Potassium"
+                    android:inputType="numberDecimal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:padding="8dp"
+                    android:background="@drawable/edittext_background"/>
+
+                <EditText
+                    android:id="@+id/etTemperature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="@drawable/edittext_background"
+                    android:hint="Temperature"
+                    android:inputType="numberDecimal"
+                    android:padding="8dp" />
+
+                <EditText
+                    android:id="@+id/etHumidity"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Humidity"
+                    android:inputType="numberDecimal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:padding="8dp"
+                    android:background="@drawable/edittext_background"/>
+
+                <EditText
+                    android:id="@+id/etPH"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="PH"
+                    android:inputType="numberDecimal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:padding="8dp"
+                    android:background="@drawable/edittext_background"/>
+
+                <EditText
+                    android:id="@+id/etRainfall"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Rainfall"
+                    android:inputType="numberDecimal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:padding="8dp"
+                    android:background="@drawable/edittext_background"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnRecommend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Recommend Crops"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    app:cornerRadius="12dp"
+                    android:elevation="20dp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTextAboveRecommendedCrops"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Crops suitable to grow"
+                android:textSize="28sp"
+                android:gravity="center"
+                android:textColor="@color/grey_text"
+                android:textStyle="bold"
+                android:layout_marginTop="40dp"
+                android:visibility="invisible"/>
+
+            <RelativeLayout
+                android:id="@+id/rlFourthSection"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_marginTop = "20dp"
+                    android:id="@+id/rvRecommendedCrops"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

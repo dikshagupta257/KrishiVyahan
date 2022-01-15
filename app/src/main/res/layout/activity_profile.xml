@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".ui.view.activities.ProfileActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:text="User Profile"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/userImgView"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/defaultavatar"
+        app:shapeAppearanceOverlay="@style/RoundedImageView"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        tools:text = "Diksha"
+        android:background="@drawable/custom"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvUserNo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        tools:text = "999999999"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/custom"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvUserAddress"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        tools:text = "Shakurpur"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:hint="Address"
+        android:textColor="@android:color/black"
+        android:background="@drawable/custom"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvUserCountry"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:background="@drawable/custom"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        tools:text="Delhi"
+        android:hint="Country"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        tools:text = "Diksha@gmail.com"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/custom"
+        android:hint="Email-id"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/editBtn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        app:cornerRadius="8dp"
+        android:text="Edit"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

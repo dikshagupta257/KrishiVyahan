@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav_consumer"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/sellerFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.SellerFragment"
+        android:label="Meet Your Seller"
+        tools:layout="@layout/fragment_seller"/>
+    <fragment
+        android:id="@+id/transportationFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.TransportationFragment"
+        android:label="Transportation"
+        tools:layout="@layout/fragment_transportation" />
+    <fragment
+        android:id="@+id/govtSchemesFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.GovtSchemesFragment"
+        android:label="Government Schemes"
+        tools:layout="@layout/fragment_govt_schemes" />
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.AboutUsFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us" />
+</navigation>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/myPostsFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.MyPostsFragment"
+        android:label="My Posts"
+        tools:layout="@layout/fragment_my_posts"/>
+
+    <fragment
+        android:id="@+id/labDetailsFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.LabDetailsFragment"
+        android:label="Lab Details"
+        tools:layout="@layout/fragment_lab_details" />
+
+    <fragment
+        android:id="@+id/cropRecommendationFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.CropRecommendationFragment"
+        android:label="Crop Prediction"
+        tools:layout="@layout/fragment_crop_recommendation" />
+
+    <fragment
+        android:id="@+id/cropAnalysisFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.CropAnalysisFragment"
+        android:label="Crop Analysis"
+        tools:layout="@layout/fragment_crop_analysis"/>
+
+    <fragment
+        android:id="@+id/insuranceFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.InsuranceFragment"
+        android:label="Agro Insurance"
+        tools:layout="@layout/fragment_insurance" />
+
+    <fragment
+        android:id="@+id/transportationFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.TransportationFragment"
+        android:label="Transportation"
+        tools:layout="@layout/fragment_transportation" />
+
+    <fragment
+        android:id="@+id/govtSchemesFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.GovtSchemesFragment"
+        android:label="Government Schemes"
+        tools:layout="@layout/fragment_govt_schemes" />
+
+    <fragment
+        android:id="@+id/aboutUsFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.AboutUsFragment"
+        android:label="About Us"
+        tools:layout="@layout/fragment_about_us" />
+
+
+</navigation>

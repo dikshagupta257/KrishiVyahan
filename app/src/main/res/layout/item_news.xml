@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="60dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post on 18 Dec 2021 / Peter Crough"
+        android:textColor="@color/grey_text"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvHeadline"
+        style="@style/TextAppearance.MaterialComponents.Headline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="5dp"
+        android:textSize="24dp"
+        tools:text="Government added 4 new schemes for farmers in 2021" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp">
+        <WebView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="4dp"
+        android:textSize="18sp"
+        tools:text="Nunc aliquet, justo non commodo conguet, denim, action bibendum purus selecao samuel eget libero. Maecenas ac viverra enim, et laoreet lacus. Etiam nisi diam, sagittis quam at..." />
+
+</LinearLayout>
