@@ -3,10 +3,7 @@ package com.codingblocksmodules.agrome.data.api
 import com.codingblocksmodules.agrome.data.model.*
 import retrofit2.Call
 import retrofit2.Response
-import retrofit2.http.Field
-import retrofit2.http.FormUrlEncoded
-import retrofit2.http.GET
-import retrofit2.http.POST
+import retrofit2.http.*
 
 //to make calls to various api endpoints
 interface GithubService {
@@ -24,6 +21,12 @@ interface GithubService {
 
     @GET("/get_seller_details/")
     suspend fun getSellerDetails(): Response<SellerItem>
+
+    @GET("/get_reupyog/")
+    suspend fun getReUpyogData(@Query("category_id") id : String) : Response<ReUpyogResponse>
+
+//    @GET("/get_reupyog/")
+//    fun getReUpyogData(@Query("category_id") id : String) : Call<ReUpyogResponse>
 
     @FormUrlEncoded
     @POST("/crop_season/")

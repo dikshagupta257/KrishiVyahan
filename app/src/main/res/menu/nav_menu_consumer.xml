@@ -18,6 +18,11 @@
             android:title="Seller" />
 
         <item
+            android:id="@+id/reUpyogFragment"
+            android:icon="@drawable/ic_reupyog"
+            android:title="ReUpyog" />
+
+        <item
             android:id="@+id/transportationFragment"
             android:icon="@drawable/ic_nav_transportation"
             android:title="Transportation" />
@@ -42,7 +47,7 @@
                 <item
                     android:id="@+id/nav_logOut"
                     android:title="Log Out"
-                    android:icon="@drawable/ic_nav_login"
+                    android:icon="@drawable/ic_nav_logout"
                     />
             </group>
         </menu>

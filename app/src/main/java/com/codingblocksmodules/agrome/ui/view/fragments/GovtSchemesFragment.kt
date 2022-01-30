@@ -72,7 +72,7 @@ class GovtSchemesFragment : Fragment() {
                 "\n" +
                 "1) Kisan Samman Nidhi yojan\n" +
                 "2) Fasal Bima yojana\n" +
-                "3) Rashtriya Krishi Bazaar ( Nationa Farmer market)\n" +
+                "3) Rashtriya Krishi Bazaar ( National Farmer market)\n" +
                 "4) Organic Farming \n" +
                 "5) Soil Health card scheme")
         )

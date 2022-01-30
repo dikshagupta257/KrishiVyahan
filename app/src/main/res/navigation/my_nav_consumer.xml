@@ -15,6 +15,13 @@
         android:name="com.codingblocksmodules.agrome.ui.view.fragments.SellerFragment"
         android:label="Meet Your Seller"
         tools:layout="@layout/fragment_seller"/>
+
+    <fragment
+        android:id="@+id/reUpyogFragment"
+        android:name="com.codingblocksmodules.agrome.ui.view.fragments.ReUpyogFragment"
+        android:label="ReUpyog"
+        tools:layout="@layout/fragment_re_upyog"/>
+
     <fragment
         android:id="@+id/transportationFragment"
         android:name="com.codingblocksmodules.agrome.ui.view.fragments.TransportationFragment"

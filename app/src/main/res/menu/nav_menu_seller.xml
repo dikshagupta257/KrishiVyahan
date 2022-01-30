@@ -58,6 +58,11 @@
                     android:title="Agro Insurance" />
 
                 <item
+                    android:id="@+id/reUpyogFragment"
+                    android:icon="@drawable/ic_reupyog"
+                    android:title="ReUpyog" />
+
+                <item
                     android:id="@+id/transportationFragment"
                     android:icon="@drawable/ic_nav_transportation"
                     android:title="Transportation" />
@@ -89,7 +94,7 @@
                 android:checkableBehavior="single">
                 <item
                     android:id="@+id/nav_logOut"
-                    android:icon="@drawable/ic_nav_login"
+                    android:icon="@drawable/ic_nav_logout"
                     android:title="Log Out" />
             </group>
         </menu>
