@@ -1,3 +1,4 @@
 # KrishiVyahan
 Krishi Vyahan is an idea to provide some help to our farmers, it is a platform where farmers can connect with their potential customers at one place, instead of getting stuck with the traditional ones. KrishiVyahan is the key solution to the problems, Limited Scope , where Farmer is compelled to sell to its nearby retailers, Dispersed Facilities, that is usually farmers have to visit different areas to buy equipments, seeds, insurance, soil testing, etc., Lack of Awareness, as we know due to lack of awareness farmers tend to miss the benefits provided by the government.
 In addition to this we also tried to solve the problem of getting correct information of soil needs according to the crop.
+![Screenshot_20220219_144329](https://user-images.githubusercontent.com/88535191/154795814-139e2ce8-a525-4bda-81ea-24e2248349e2.jpg)
